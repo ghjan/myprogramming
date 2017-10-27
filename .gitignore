@@ -1,0 +1,4 @@
+.idea/*
+*.pyc
+tutorial/__pycache__/*
+tutorial/spiders/__pycache__/*
