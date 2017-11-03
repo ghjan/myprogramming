@@ -30,11 +30,11 @@ print(sys.argv)
 # 获取当前文件路径
 import os
 cur_dir = os.path.abspath(__file__)
-print(cur_dir)	# E:\programming\Python\模块.py
+print(cur_dir)	# E:\myprogramming\Python\模块.py
 
 # 获取父目录
 pa_dir = os.path.dirname(cur_dir)
-print(pa_dir)	# E:\programming\Python
+print(pa_dir)	# E:\myprogramming\Python
 
 # 相当于c中的 include "dong.h"  会先在当前目录中找dong.h
 import sys
